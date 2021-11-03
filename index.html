@@ -1,29 +1,28 @@
 <!DOCTYPE html>
-<html lang="en" onclick="jump()">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Jumping Ball</title>
-    <link rel="stylesheet" href="index.css">
-  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dino Game</title>
+  <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-   
-    <p>Score: <span id="scoreSpan"></span></p>
-    <div class="rule">Rules </div>
-    <div class="rules">
-    1. Avoid touching the balls each other. 
-    <br> 2. Jump red ball by clicking your mouse. 
-    <br>3. Get one point. 
-    <br>4. If red ball touches green or above <br> the centre of green ball game will over.
-    </div><div class="game">
-      
-        <div id="character">
-      
-        </div>
-        <div id="block"></div>
-    </div>
-    
+  <div id="game">
+    <div id="dino"></div>
+    <div id="rock"></div>
+  </div>
+  <h1 id="score">0</h1>
+ <h2>Score:</h2>
+  <div class="rule">Rules </div>
+  <div class="rules">
+  1. Save your dino from rock. 
+  <br> 2. By clicking keyboard space button. 
+  <br>3. And Get points. 
+  </div>
+
+
+
+  <script src="script.js"></script>
 </body>
-<script type="text/javascript" src="index.js"></script>
-</html>
 </html>
